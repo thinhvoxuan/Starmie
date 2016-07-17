@@ -1,18 +1,19 @@
 {
-  "name": "hitmonchan",
-  "description": "my awesome service",
+  "name": "api",
+  "description": "my awesome site",
   "keywords": [
-    "seneca",
-    "service"
+    "awesome",
+    "site"
   ],
-  "license": "MIT",
   "version": "0.1.0",
-  "main": "./service.js",
+  "main": "./index.js",
   "engines": {
     "node": "*"
   },
   "dependencies": {
-    "seneca": "^2.0.1"
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "seneca": "^1.2.0"
   },
   "repository": {
     "private": true
@@ -28,7 +29,6 @@
     "commit-check"
   ],
   "devDependencies": {
-    "jshint": "^2.9.2",
     "pre-commit": "^1.1.1",
     "tape": "^4.2.0"
   }

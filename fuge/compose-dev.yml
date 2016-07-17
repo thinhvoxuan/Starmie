@@ -1,0 +1,15 @@
+frontend:
+  build: ../site/
+  container_name: site
+api:
+  build: ../api/
+  container_name: api
+hitmonchan:
+  build: ../hitmonchan/
+  container_name: hitmonchan
+meotwo:
+  build: ../meotwo/
+  container_name: meotwo
+unown :
+  build: ../unown /
+  container_name: unown 
