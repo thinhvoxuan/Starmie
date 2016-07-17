@@ -10,15 +10,21 @@ api:
   env_file: './env'
   ports:
     - 10001:20001
-service1:
-  build: ../service1/
-  container_name: service1
+hitmonchan:
+  build: ../hitmonchan/
+  container_name: hitmonchan
   env_file: './env'
   ports:
     - 10002:20002
-service2:
-  build: ../service2/
-  container_name: service2
+meotwo:
+  build: ../meotwo/
+  container_name: meotwo
   env_file: './env'
   ports:
     - 10003:20003
+unown:
+  build: ../unown/
+  container_name: unown
+  env_file: './env'
+  ports:
+    - 10004:20004

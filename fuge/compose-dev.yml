@@ -11,5 +11,9 @@ meotwo:
   build: ../meotwo/
   container_name: meotwo
 unown :
-  build: ../unown /
-  container_name: unown 
+  build: ../unown/
+  container_name: unown
+redis:
+  image: redis
+  ports:
+    - 6379:6379
